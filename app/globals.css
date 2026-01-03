@@ -1,26 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Test palette — edit these values to change the site's palette */
+  --test-900: #004030; /* deep */
+  --test-500: #4A9782; /* mid */
+  --test-200: #DCD0A8; /* light */
+  --test-50:  #FFF9E5; /* pale background */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Keep light/dark tokens minimal; use Tailwind utility classes for colors */
+/* Dark theme can be handled by Tailwind or additional classes if needed */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: #ffffff;
+  color: #171717;
   font-family: Arial, Helvetica, sans-serif;
 }

@@ -11,7 +11,7 @@ interface ProjectInfoProps {
 
 function ProjectCard({ item }: Readonly<ProjectInfoProps>) {
   return (
-    <div className="project-card p-4 border rounded-lg mb-4">
+    <div className="project-card p-2 border rounded-lg mb-4">
       <h2>{item.title}</h2>
       <p>{item.shortDescription}</p>
       <p>{item.domain}</p>
