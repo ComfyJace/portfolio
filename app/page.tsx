@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <main className="p-4 space-y-4">
+      <main className="p-4 space-y-4 bg-neutral-50/90 text-neutral-950 min-h-screen pt-20">
         <AboutMe />
         <hr />
         <Projects />
