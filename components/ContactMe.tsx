@@ -67,7 +67,7 @@ function ContactMe() {
             LinkedIn
           </a>
           <a
-            href="/Jason-Dimalanta-Resume.pdf"
+            href="/Dimalanta_UpToDateReference.pdf"
             download
             className="px-4 py-2 rounded-lg bg-green-100 text-green-700 hover:bg-green-200 transition"
           >

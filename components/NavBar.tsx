@@ -29,7 +29,7 @@ function NavBar() {
       <Link href="/#contact-me" className="text-sm">
         Contact
       </Link>
-      <a href="/" className="text-sm">
+      <a href="/Dimalanta_UpToDateReference.pdf" className="text-sm" download>
         Resume
       </a>
     </nav>
