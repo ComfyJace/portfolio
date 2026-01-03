@@ -12,11 +12,7 @@ function Projects() {
       {/* Projects grid */}
       <div className="projects-list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {ProjectList.map((item) => (
-          <ProjectCard
-            key={item.id}
-            item={item}
-            className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300"
-          />
+          <ProjectCard key={item.id} item={item} />
         ))}
       </div>
     </div>
